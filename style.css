@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #000;
+    transition: 0.3s;
+  }
+  
+  body.dark {
+    background: #121212;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #0077ff;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a, nav button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero {
+    padding: 80px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 80px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
